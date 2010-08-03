@@ -1,0 +1,62 @@
+/* GLOBAL 
+.x-toolbar-title {background: blue;}
+.x-list .x-list-group h3 {background: blue;font-weight:bold;}
+*/
+
+/* APPLICATION */
+.card {padding:20px;}
+
+/* SCHEDULE */
+.schedule .details {margin-top:5px;margin-bottom:4px;font-size:11px;}
+.schedule .location {float:right;margin-right:20px;}
+.session-list {margin-top:50px;}
+.session-detail {font-size:12px;padding:20px;line-height:20px;}
+.session-detail .strong {font-weight:bold;}
+.day-selector {padding:8px;}
+
+/* TOPCIS */
+.topic-desc {font-size:11px;}
+.topics-help {font-size:12px;padding:8px;}
+.topics-list {margin-top:35px;}
+
+/* SPEAKERS */
+.speaker-detail {font-size:12px;padding:20px;line-height:20px;}
+.speaker-detail .strong {font-weight:bold;}
+
+/* TWITTER */
+.tweet {font-size:12px;}
+.tweet img {float:left;}
+.tweet-bubble {padding-left:55px;}
+.tweet-content {padding:6px;}
+.tweet-content h2 {font-size:13px;font-weight:bold;}
+.tweet-content p {}
+.posted {color:#242424;font-size:11px;font-style:italic;}
+
+/* STATIC CONTENT */
+
+#travel_content a:link {color:#0091DB}
+#travel_content a:visited {color:#0091DB}
+
+#sponsors-list h3 {font-size:15px;font-weight:bold;}
+.sponsor a:link {color:#0091DB}
+.sponsor a:visited {color:#0091DB}
+.sponsor a:hover {color:#0091DB;text-decoration:none;}
+
+.loading {
+  background: rgba(0,0,0,.3) url(../images/loading.gif) center center no-repeat;
+  display: block;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -5em;
+  margin-top: -5em;  
+  -webkit-border-radius: .5em;
+  color: #fff;
+  text-shadow: #000 0 1px 1px;
+  text-align: center;
+  padding-top: 8em;
+  font-weight: bold;
+}
+
