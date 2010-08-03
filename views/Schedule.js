@@ -118,32 +118,15 @@ cfunited.ui.Schedule = Ext.extend(Ext.Container,{
 	},
 	
 	onLoad: function(){		
-		var dt = new Date();
+		var today = new Date().format('Y/m/d');
 		
-		switch(dt.format('Y/m/d')){
-			
-			case '2010/07/28':
-				this.loadData(dt.format('Y/m/d'));
-				this.sb.setActive(dt.format('Y/m/d'));
-			break;
-			case '2010/07/29':
-				this.loadData(dt.format('Y/m/d'));
-				this.sb.setActive(dt.format('Y/m/d'));
-			break;
-			case '2010/07/30':
-				this.loadData(dt.format('Y/m/d'));
-				this.sb.setActive(dt.format('Y/m/d'));
-			break;
-			case '2010/07/31':
-				this.loadData(dt.format('Y/m/d'));
-				this.sb.setActive(dt.format('Y/m/d'));
-			break;
-			
-			default :
-				this.loadData('2010/07/28');
-				this.sb.setActive(dt.format('2010/07/28'));
-			break;
-		}		
+		if( today >= '2010/07/28' && today <= '2010/07/31' ){
+			this.loadData(today);
+			this.sb.setActive(today);
+		} else {
+			this.loadData('2010/07/28');
+			this.sb.setActive('2010/07/28');					
+		}
 		
 	},
 	
