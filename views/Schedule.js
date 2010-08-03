@@ -120,7 +120,7 @@ cfunited.ui.Schedule = Ext.extend(Ext.Container,{
 	onLoad: function(){		
 		var today = new Date().format('Y/m/d');
 		
-		if (today <= '2010/07/28' || today >= '2010/07/31') {
+		if (today < '2010/07/28' || today > '2010/07/31') {
 			today = '2010/07/28';
 		}
 
