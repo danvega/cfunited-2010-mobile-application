@@ -18,6 +18,5 @@ Issues
 -------------------------------------------------------
 Contact
 	Blog: http://www.danvega.org/blog
-	Email: danvega at gmail
 	Twitter: @cfaddict
 	
